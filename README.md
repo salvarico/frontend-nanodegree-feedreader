@@ -9,6 +9,14 @@ Testing is an important part of the development process and many organizations p
 
 Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
 
+## How can I run this project?
+You can just visit [this Github Page](https://salvarico.github.io/frontend-nanodegree-feedreader/) or you can clone this repository and run `index.html` in your browser.
+For cloning you just need to run the following commands in Terminal or PowerShell:
+```bash
+git clone https://github.com/salvarico/frontend-nanodegree-feedreader
+cd frontend-nanodegree-feedreader
+open index.html
+```
 
 ## What will I learn?
 
