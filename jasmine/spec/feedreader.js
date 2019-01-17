@@ -8,8 +8,7 @@
  * since some of these tests may require DOM elements. We want
  * to ensure they don't run until the DOM is ready.
  */
-google.setOnLoadCallback(
-function() {
+$(function() {
     /* This is our first test suite - a test suite just contains
     * a related set of tests. This suite is all about the RSS
     * feeds definitions, the allFeeds variable in our application.
@@ -116,4 +115,4 @@ function() {
             expect(feedOne === feedTwo).toBe(false);
         });
     });
-});
+}());
